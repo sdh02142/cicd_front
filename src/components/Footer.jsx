@@ -5,7 +5,7 @@ const Footer =()=>{
       <>
         <div className="Footer">
            <img src={emotion1} />
-           <div className="Footer_div">Programmer Heejung Jang!</div>
+           <div className="Footer_div">Programmer Zoo!</div>
         </div>    
       </>
     )
