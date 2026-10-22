@@ -41,5 +41,5 @@ jobs:
           key: ${{secrets.EC2_SSH_KEY}}       # SSH 개인 키
           script: |                            # 접속 후 실행할 명령어 목록
             cd ~/react-cicd                   
-            docker compose down          
-            docker compose up -d --build 
+            sudo docker compose down          
+            sudo docker compose up -d --build 
